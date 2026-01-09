@@ -48,7 +48,7 @@ const About: React.FC<{ onNavigate: (page: string) => void }> = ({ onNavigate })
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                         <div className="absolute bottom-8 left-8 text-white">
                             <div className="text-sm font-mono opacity-70 mb-2">EST. 2025</div>
-                            <div className="text-2xl font-bold">San Francisco, CA</div>
+                            <div className="text-2xl font-bold">📍Earth</div>
                         </div>
                     </div>
                     {/* Floating Badge */}
