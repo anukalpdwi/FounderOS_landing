@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Comparison from './components/Comparison';
@@ -74,6 +75,7 @@ const App: React.FC = () => {
       </main>
       
       {currentView !== 'waitlist' && <Footer onNavigate={handleNavigate} />}
+      <Analytics />
     </div>
   );
 };
