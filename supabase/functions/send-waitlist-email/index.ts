@@ -45,9 +45,9 @@ html: `
     </p>
 
     <p>
-      At <strong>The Goldenbird Tech</strong>, we’re building <strong>FounderOS-AI</strong> — an
-      <strong>Autonomous AI Co-Founder</strong> designed to take over the work that slows founders down:
-      operations, execution, and day-to-day decisions.
+      At <strong>The Goldenbird Tech</strong>, we’re building <strong>FounderOS-AI</strong> —
+      an <strong>Autonomous AI Co-Founder</strong> that works alongside founders to execute,
+      decide, and scale with speed and precision.
     </p>
 
     <p>
