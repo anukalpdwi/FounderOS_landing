@@ -32,7 +32,7 @@ const handler = async (req: Request): Promise<Response> => {
       body: JSON.stringify({
         from: "FounderOS <anukalp@founder.goldenbirdtech.com>", // replace with verified domain
 to: [email],
-subject: "You're In. Welcome to the FounderOS Waitlist 🚀",
+subject: "You're In. Welcome to the FounderOS-AI Waitlist 🚀",
 html: `
   <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #111;">
 
@@ -41,27 +41,35 @@ html: `
     <p>Hi,</p>
 
     <p>
-      You’ve successfully joined the <strong>FounderOS</strong> waitlist.
+      You’ve successfully joined the <strong>FounderOS-AI</strong> waitlist.
     </p>
 
     <p>
-      We’re building an <strong>Autonomous AI Co-Founder</strong> designed to take over the work that slows founders down —
-      operations, execution, and day-to-day decisions — so you can focus on what actually matters.
+      At <strong>The Goldenbird Tech</strong>, we’re building <strong>FounderOS-AI</strong> — an
+      <strong>Autonomous AI Co-Founder</strong> designed to take over the work that slows founders down:
+      operations, execution, and day-to-day decisions.
     </p>
 
     <p>
-      Your spot is secured. As we roll out access in batches, you’ll be among the first to know when FounderOS is ready for you.
+      Our goal is simple: help founders focus on building, while AI handles the rest —
+      intelligently, proactively, and reliably.
     </p>
 
     <p>
-      Over the coming weeks, we’ll share early updates, behind-the-scenes progress, and what to expect from your AI co-founder.
+      Your spot is secured. As we roll out access in batches, you’ll be among the first to know
+      when FounderOS-AI is ready for you.
+    </p>
+
+    <p>
+      Over the coming weeks, we’ll share early updates, behind-the-scenes progress,
+      and what to expect from your AI co-founder.
     </p>
 
     <br/>
 
     <p>
       Until then, keep building.<br/>
-      We’ll handle the rest — soon.
+      We’ll handle the execution — soon.
     </p>
 
     <br/>
