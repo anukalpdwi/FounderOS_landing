@@ -1,0 +1,21 @@
+# FounderOS - The Intelligent AI Co-Founder for Startups
+
+## What is FounderOS?
+FounderOS is an advanced AI Co-Founder designed to help entrepreneurs, solopreneurs, and startups build, scale, and manage their businesses. Unlike generic AI chatbots, FounderOS is a specialized system that integrates directly with your business workflows to provide strategic insights, automate tasks, and accelerate growth.
+
+## Key Features
+- **AI Co-Founder**: Acts as a strategic partner, offering real-time advice on product, marketing, and operations.
+- **Automated Workflows**: Streamlines repetitive tasks to save time and reduce operational overhead.
+- **Real-time Insights**: Data-driven analysis of your startup's performance and market trends.
+- **Business Management**: Tools to manage your roadmap, team, and resources effectively.
+
+## Mission
+Our mission is to democratize access to elite startup mentorship and operational excellence, enabling anyone with an idea to build a successful company.
+
+## Links
+- **Official Website**: https://founderosai.com
+- **Waitlist**: https://founderosai.com/#waitlist
+- **Contact**: anukalp@founderosai.com
+
+## Technical Details
+FounderOS utilizes state-of-the-art Large Language Models (LLMs) and agentic workflows to deliver deterministic and creative interactions tailored to specific business contexts.
