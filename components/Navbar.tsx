@@ -153,6 +153,14 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, onNavigate, current
             >
               Log in
             </button>
+            {/* Dashboard button hidden from users
+            <button 
+                onClick={() => onNavigate('dashboard')}
+                className="text-sm font-medium text-gray-900 dark:text-white hover:text-brand-green transition-colors"
+            >
+              Dashboard
+            </button>
+            */}
             <button 
                 onClick={() => onNavigate('waitlist')}
                 className="bg-black dark:bg-white text-white dark:text-black px-5 py-2.5 rounded-full text-sm font-bold hover:bg-brand-green dark:hover:bg-brand-green transition-colors duration-300 shadow-[0_0_20px_-5px_rgba(0,0,0,0.1)] dark:shadow-[0_0_20px_-5px_rgba(255,255,255,0.3)]"
@@ -251,6 +259,20 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme, onNavigate, current
                 >
                   Log in
                 </motion.button>
+                {/* Dashboard button hidden from users
+                <motion.button 
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.32 }}
+                    onClick={() => {
+                        onNavigate('dashboard');
+                        setIsMobileMenuOpen(false);
+                    }}
+                    className="w-full text-center text-lg font-medium text-gray-900 dark:text-white hover:text-brand-green py-2"
+                >
+                  Dashboard
+                </motion.button>
+                */}
                 <motion.button 
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}

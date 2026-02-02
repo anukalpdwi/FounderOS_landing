@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "FounderOS Marketing Agent",
+  "version": "1.0.0",
+  "description": "AI-powered automated social media posting. Posts to X and LinkedIn automatically.",
+  
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  
+  "host_permissions": [
+    "https://x.com/*",
+    "https://twitter.com/*",
+    "https://www.linkedin.com/*",
+    "http://localhost:8000/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "FounderOS Marketing"
+  }
+}

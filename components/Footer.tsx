@@ -136,7 +136,7 @@ const Footer: React.FC<{ onNavigate?: (page: string) => void }> = ({ onNavigate 
            <div>
             <h4 className="font-bold text-gray-900 dark:text-white mb-4">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-500">
-                <li><a href="#" className="hover:text-brand-green transition-colors">Privacy Policy</a></li>
+                <li><button onClick={() => onNavigate && onNavigate('privacy')} className="hover:text-brand-green transition-colors">Privacy Policy</button></li>
                 <li><a href="#" className="hover:text-brand-green transition-colors">Terms of Service</a></li>
                 <li><a href="#" className="hover:text-brand-green transition-colors">Security</a></li>
                 <li><a href="#" className="hover:text-brand-green transition-colors">Support</a></li>
